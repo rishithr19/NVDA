@@ -1,0 +1,49 @@
+---
+title: "NVIDIA Closing Prices"
+author: "Rishith Ravi"
+date: "2024-06-24"
+---
+
+Nvidia is the maker of the chips leading the ai revolution and is one of the fastest growing tech companies in the stock market.
+
+The dataset is derived from publicly available historical stock price data for NVIDIA Corporation (NVDA), sourced from a reputable financial database. The dataset includes daily closing prices from 1999 to the present, covering a period of significant growth and volatility in the stock market.
+
+The closing prices of NVIDIA (NVDA) stocks have shown significant growth over the years, with notable increases during certain periods, reflecting the company's expansion and market performance. Nvidia has been competing with companies such as Apple, Microsoft, and Google and outgrowing them as well!
+
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+# Load the necessary library
+library(tidyverse)
+
+# Read the data
+nvda_data <- read.csv("NVDA (1).csv")
+
+# Convert the Date column to Date object
+nvda_data$Date <- as.Date(nvda_data$Date)
+
+# Create the plot
+ggplot(data = nvda_data, aes(x = Date, y = Close)) +
+  geom_line(color = "green", linewidth = 0.8) +
+  scale_x_date(date_labels = "%b %Y", date_breaks = "2 years") +
+  labs(
+    title = "NVIDIA (NVDA) Closing Prices Over Time",
+    subtitle = "Daily closing prices from 1999 to present",
+    x = "Date",
+    y = "Closing Price (USD)",
+    caption = "Data Source: NVDA (1).csv"
+  ) +
+  theme(
+    panel.background = element_rect(fill = "black", color = "black"),
+    plot.background = element_rect(fill = "black", color = "black"),
+    plot.title = element_text(size = 16, face = "bold", color = "white"),
+    plot.subtitle = element_text(size = 12, color = "white"),
+    axis.title.x = element_text(size = 12, color = "white"),
+    axis.title.y = element_text(size = 12, color = "white"),
+    axis.text.x = element_text(size = 10, angle = 45, hjust = 1, color = "white"),
+    axis.text.y = element_text(size = 10, color = "white"),
+    plot.caption = element_text(size = 8, face = "italic", color = "white"),
+    panel.grid.major = element_line(color = "gray"),
+    panel.grid.minor = element_line(color = "gray")
+  )
+```
+
