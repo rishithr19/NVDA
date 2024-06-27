@@ -2,6 +2,7 @@
 title: "NVIDIA Closing Prices"
 author: "Rishith Ravi"
 date: "2024-06-24"
+output: html_document
 ---
 
 Nvidia is the maker of the chips leading the ai revolution and is one of the fastest growing tech companies in the stock market.
