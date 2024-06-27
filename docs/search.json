@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NVIDIA Closing Prices",
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Sources",
     "section": "",
-    "text": "Nvidia is the maker of the chips leading the ai revolution and is one of the fastest growing tech companies in the stock market.\nThe dataset is derived from publicly available historical stock price data for NVIDIA Corporation (NVDA), sourced from a trustable financial database. This dataset can be accessed through kaggle. The dataset includes daily closing prices from 1999 to the present, covering a period of significant growth and volatility in the stock market.\nThe closing prices of NVIDIA (NVDA) stocks have shown significant growth over the years, with notable increases during certain periods, reflecting the company’s expansion and market performance. Nvidia has been competing with companies such as Apple, Microsoft, and Google and outgrowing them as well!\n\n\n\n\n\n\n\n\n\n\n\nJan 2019 - Jan 2022: NVDA 79% increase This was caused heavily by their graphics-processing unit (GPU) and artificial intelligence (AI) returns\nJan 2022 - Jan 2023: NVDA 52% decrease This was mostly due to the covid market crash and all of position holders closing their positions as they feared the crash would get worse\nJan 2023 - Present Date: NVDA 681% increase The rise in quality and demand of NVDA’s semiconductors allowed the company to rise at such an exponential rate"
+    "text": "Dataset:\nhttps://www.kaggle.com/datasets/programmerrdai/nvidia-stock-historical-data\nNews in Jan of 2019:\nhttps://www.fool.com/investing/2020/01/08/why-nvidia-stock-soared-76-in-2019.aspx\nNews in Jan of 2023:\nhttps://www.fool.com/investing/2024/03/20/nvidia-stock-soared-239-in-2023-and-1-wall-street/#:~:text=Demand%20for%20the%20company’s%20A100,record%20in%20each%20quarterly%20report."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "This site is made by me, Rishith Ravi. I am 15 years old and a rising sophomore in High School South. I am interested in learning Data Science and I am here to present you with my final project.\nThis project is on the movement of Nvidia’s stock prices from the opening of the stock till present date. I will analyze the movements and the reasons for significant movements in the stock price."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NVIDIA Closing Prices",
+    "section": "",
+    "text": "Nvidia is the maker of the chips leading the ai revolution and is one of the fastest growing tech companies in the stock market.\nThe dataset is derived from publicly available historical stock price data for NVIDIA Corporation (NVDA), sourced from a trustable financial database. This dataset can be accessed through kaggle. The dataset includes daily closing prices from 1999 to the present, covering a period of significant growth and volatility in the stock market.\nThe closing prices of NVIDIA (NVDA) stocks have shown significant growth over the years, with notable increases during certain periods, reflecting the company’s expansion and market performance. Nvidia has been competing with companies such as Apple, Microsoft, and Google and outgrowing them as well!\n\n\n\n\n\n\n\n\n\n\n\nJan 2019 - Jan 2022: NVDA 79% increase This was caused heavily by their graphics-processing unit (GPU) and artificial intelligence (AI) returns\nJan 2022 - Jan 2023: NVDA 52% decrease This was mostly due to the covid market crash and all of position holders closing their positions as they feared the crash would get worse\nJan 2023 - Present Date: NVDA 681% increase The rise in quality and demand of NVDA’s semiconductors allowed the company to rise at such an exponential rate"
   }
 ]

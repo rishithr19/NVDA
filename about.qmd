@@ -1,5 +1,7 @@
 ---
 title: "About"
+author: "Rishith Ravi"
+date: "2024-06-24"
 ---
 
 This site is made by me, Rishith Ravi. I am 15 years old and a rising sophomore in High School South. I am interested in learning Data Science and I am here to present you with my final project.

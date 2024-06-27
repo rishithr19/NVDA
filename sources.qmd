@@ -1,0 +1,14 @@
+---
+title: "Sources"
+author: "Rishith Ravi"
+date: "2024-06-24"
+---
+
+Dataset:\
+https://www.kaggle.com/datasets/programmerrdai/nvidia-stock-historical-data
+
+News in Jan of 2019:\
+https://www.fool.com/investing/2020/01/08/why-nvidia-stock-soared-76-in-2019.aspx
+
+News in Jan of 2023:\
+https://www.fool.com/investing/2024/03/20/nvidia-stock-soared-239-in-2023-and-1-wall-street/#:\~:text=Demand%20for%20the%20company's%20A100,record%20in%20each%20quarterly%20report.
